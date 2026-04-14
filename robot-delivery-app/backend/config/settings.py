@@ -161,6 +161,8 @@ INSTALLED_APPS = [
     'corsheaders',
     'django_filters',
     'channels',
+    'django_otp',
+    'django_otp.plugins.otp_totp',
 ]
 
 DATABASES = {
